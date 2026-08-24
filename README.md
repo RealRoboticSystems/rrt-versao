@@ -15,17 +15,30 @@ ficheiro. **Não há aqui código nenhum**, nem nada sobre projetos de clientes.
 
 ## Formato
 
+Há **dois canais**: `estavel` e `beta`. Cada um leva a versão do conjunto e a de cada ferramenta
+nessa release.
+
 ```json
 {
-  "versao":   "1.4-beta",
-  "tag":      "v1.4-beta",
-  "nome":     "título do release",
-  "url":      "link para o release (só acessível a quem tem acesso ao repositório privado)",
-  "publicado":"2026-08-20T08:38:59Z"
+  "estavel": {
+    "versao": "1.3", "tag": "v1.3",
+    "nome": "título do release",
+    "url":  "link para o release (só acessível a quem tem acesso ao repositório privado)",
+    "publicado": "2026-08-19T15:45:26Z",
+    "ferramentas": { "linkador-io": "7", "editor-tabela-transicao": "1.12" }
+  },
+  "beta": { "…igual…" }
 }
 ```
 
-Só o campo `versao` é obrigatório; os restantes enriquecem o aviso mostrado ao utilizador.
+- `beta` é `null` quando a release mais recente já é a estável.
+- Uma ferramenta que ainda não existia numa release não aparece nas `ferramentas` desse canal.
+- Os mesmos campos aparecem também **no topo do ficheiro**, a apontar para a release mais
+  recente: é o formato antigo, mantido para as cópias das ferramentas já distribuídas não
+  partirem. Cópias novas leem os canais.
+
+Do lado das ferramentas, a estável é que manda: quem está atrás dela é avisado; quem já está em
+dia com ela apenas *fica a saber* que existe uma beta.
 
 ## Como se atualiza
 

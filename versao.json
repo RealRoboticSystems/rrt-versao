@@ -21,5 +21,54 @@
     "seletor-cilindros": "1.7",
     "verificador-plc": "0.3.1-beta",
     "visualizador-caminhos": "1.3"
+  },
+  "estavel": {
+    "versao": "1.3",
+    "tag": "v1.3",
+    "nome": "Relatório de Revisão PLC + modo escuro em todas as ferramentas (15 ferramentas)",
+    "url": "https://github.com/RealRoboticSystems/real-robotic-tools/releases/tag/v1.3",
+    "publicado": "2026-08-19T15:45:26Z",
+    "ferramentas": {
+      "calculadora-modbus": "1.2",
+      "comparador-pl7": "1.2",
+      "cronograma-rrs": "1.1",
+      "distancias-seguranca": "1.0-beta",
+      "editor-tabela-transicao": "1.12",
+      "gerador-etiquetas": "1.1",
+      "inicializador-projetos": "1.4",
+      "linkador-io": "7",
+      "lista-compras-inventor": "1.12",
+      "mapeador-programas": "1.2",
+      "registo-defeitos": "2",
+      "relatorio-revisao-plc": "1.2",
+      "remapeador-enderecos": "1.2",
+      "seletor-cilindros": "1.5.1-beta",
+      "visualizador-caminhos": "1.1"
+    }
+  },
+  "beta": {
+    "versao": "1.5-beta",
+    "tag": "v1.5-beta",
+    "nome": "aviso de versao em todas as ferramentas + modo escuro legivel + Gestor de Obra v2.2",
+    "url": "https://github.com/RealRoboticSystems/real-robotic-tools/releases/tag/v1.5-beta",
+    "publicado": "2026-08-24T15:46:50Z",
+    "ferramentas": {
+      "calculadora-modbus": "1.3",
+      "comparador-pl7": "1.4",
+      "cronograma-rrs": "1.3",
+      "distancias-seguranca": "1.2",
+      "editor-tabela-transicao": "1.14",
+      "gerador-etiquetas": "1.2",
+      "inicializador-projetos": "1.7",
+      "linkador-io": "7.2",
+      "lista-compras-inventor": "2.2",
+      "mapeador-programas": "1.4",
+      "registo-defeitos": "2.3",
+      "relatorio-revisao-plc": "1.3",
+      "remapeador-enderecos": "1.4",
+      "seletor-cilindros": "1.7",
+      "verificador-plc": "0.3.1-beta",
+      "visualizador-caminhos": "1.3"
+    }
   }
 }
