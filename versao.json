@@ -1,9 +1,9 @@
 {
-  "versao": "1.4-beta",
-  "tag": "v1.4-beta",
-  "nome": "Verificador de Código PLC (beta) + ladders nos findings (16 ferramentas)",
-  "url": "https://github.com/RealRoboticSystems/real-robotic-tools/releases/tag/v1.4-beta",
-  "publicado": "2026-08-20T08:38:59Z",
+  "versao": "1.5-beta",
+  "tag": "v1.5-beta",
+  "nome": "aviso de versao em todas as ferramentas + modo escuro legivel + Gestor de Obra v2.2",
+  "url": "https://github.com/RealRoboticSystems/real-robotic-tools/releases/tag/v1.5-beta",
+  "publicado": "2026-08-24T15:46:50Z",
   "ferramentas": {
     "calculadora-modbus": "1.3",
     "comparador-pl7": "1.4",
@@ -13,7 +13,7 @@
     "gerador-etiquetas": "1.2",
     "inicializador-projetos": "1.7",
     "linkador-io": "7.2",
-    "lista-compras-inventor": "1.13",
+    "lista-compras-inventor": "2.2",
     "mapeador-programas": "1.4",
     "registo-defeitos": "2.3",
     "relatorio-revisao-plc": "1.3",
