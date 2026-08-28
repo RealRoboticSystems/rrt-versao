@@ -1,9 +1,9 @@
 {
-  "versao": "1.5-beta",
-  "tag": "v1.5-beta",
-  "nome": "aviso de versao em todas as ferramentas + modo escuro legivel + Gestor de Obra v2.2",
-  "url": "https://github.com/RealRoboticSystems/real-robotic-tools/releases/tag/v1.5-beta",
-  "publicado": "2026-08-24T15:46:50Z",
+  "versao": "1.6-beta",
+  "tag": "v1.6-beta",
+  "nome": "manifesto com canais estavel e beta",
+  "url": "https://github.com/RealRoboticSystems/real-robotic-tools/releases/tag/v1.6-beta",
+  "publicado": "2026-08-28T08:54:57Z",
   "ferramentas": {
     "calculadora-modbus": "1.3",
     "comparador-pl7": "1.4",
@@ -47,11 +47,11 @@
     }
   },
   "beta": {
-    "versao": "1.5-beta",
-    "tag": "v1.5-beta",
-    "nome": "aviso de versao em todas as ferramentas + modo escuro legivel + Gestor de Obra v2.2",
-    "url": "https://github.com/RealRoboticSystems/real-robotic-tools/releases/tag/v1.5-beta",
-    "publicado": "2026-08-24T15:46:50Z",
+    "versao": "1.6-beta",
+    "tag": "v1.6-beta",
+    "nome": "manifesto com canais estavel e beta",
+    "url": "https://github.com/RealRoboticSystems/real-robotic-tools/releases/tag/v1.6-beta",
+    "publicado": "2026-08-28T08:54:57Z",
     "ferramentas": {
       "calculadora-modbus": "1.3",
       "comparador-pl7": "1.4",
